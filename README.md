@@ -68,11 +68,16 @@ The goal is to learn by **building projects**, solving problems, and documenting
 
 ## 🧠 Data Structures & Algorithms
 
-- ⏳ Arrays
+- ✅ Arrays
 - ⏳ Strings
-- ⏳ Linked Lists
+- ⏳ Hash Maps
+- ⏳ Two Pointers
+- ⏳ Sliding Window
+- ⏳ Prefix Sum
 - ⏳ Stacks
 - ⏳ Queues
+- ⏳ Binary Search
+- ⏳ Linked Lists
 - ⏳ Trees
 - ⏳ Graphs
 - ⏳ Dynamic Programming
@@ -118,8 +123,25 @@ web-development/
 | Day | Topic | Project | Status |
 |-----|--------|---------|--------|
 | 01 | HTML, CSS, JavaScript | Counter App | ✅ |
-| 02 | Coming Soon | — | ⏳ |
+| 02 | HTML Basics + Tags + Hyperlinks | Personal Introduction, Text Formatting, Favourite Movies, Recipes Page | ✅ |
 | 03 | Coming Soon | — | ⏳ |
+| 04 | Coming Soon | — | ⏳ |
+| 05 | Coming Soon | — | ⏳ |
+| 06 | Coming Soon | — | ⏳ |
+| 07 | Coming Soon | — | ⏳ |
+| 08 | Coming Soon | — | ⏳ |
+| 09 | Coming Soon | — | ⏳ |
+| 10 | Coming Soon | — | ⏳ |
+| 11 | Coming Soon | — | ⏳ |
+| 12 | Coming Soon | — | ⏳ |
+| 13 | Coming Soon | — | ⏳ |
+| 14 | Coming Soon | — | ⏳ |
+| 15 | Coming Soon | — | ⏳ |
+| 16 | Coming Soon | — | ⏳ |
+| 17 | Coming Soon | — | ⏳ |
+| 18 | Coming Soon | — | ⏳ |
+| 19 | Coming Soon | — | ⏳ |
+| 20 | Coming Soon | — | ⏳ |
 
 ---
 
@@ -141,7 +163,7 @@ web-development/
 | Project | Technology | Status |
 |----------|------------|--------|
 | Counter App | HTML • CSS • JavaScript | ✅ |
-| More Coming Soon... | — | ⏳ |
+| Recipe Archive | HTML | ✅ |
 
 ---
 
