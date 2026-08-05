@@ -1,0 +1,4 @@
+.column-layout-implement {
+  display: flex;
+  gap: 40px;
+}
