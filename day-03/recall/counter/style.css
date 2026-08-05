@@ -1,0 +1,42 @@
+body {
+  background-color: #333333;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  margin:0;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-self: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 12px;
+  gap:10px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 5px 25px;
+  border-radius: 6px;
+  border: 1px solid black;
+  background: lightblue;
+}
+
+.btn:hover {
+  background-color: lightcoral;
+  color: whitesmoke;
+  border: 1px solid red;
+  font-size: 20px;
+}
