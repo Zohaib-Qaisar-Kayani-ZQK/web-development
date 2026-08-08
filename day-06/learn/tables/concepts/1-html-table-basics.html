@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Basics</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <ul>
+            <li>
+                <a href="../index.html">Back to Tables</a>
+            </li>
+        </ul>
+        <h1>Table Basics</h1>
+      </header>
+
+      <!-- =====================================================
+                    Section: Table Basics
+        ======================================================== -->
+
+      <section id="table-basics-section">
+        <p>
+          An HTML table represents information arranged into rows and columns.
+          Tables are appropriate for structured data such as student records,
+          marks, products, employees, schedules, standings, and expenses.
+        </p>
+
+        <pre>
+Table
+│
+├── Caption
+├── Thead
+│   └── Header row
+│       ├── Heading
+│       ├── Heading
+│       └── Heading
+└── Tbody
+    ├── Data row
+    ├── Data row
+    └── Data row
+        </pre>
+
+        <table border="1">
+          <caption>
+            Simple Student List
+          </caption>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Age</td>
+              <td>Class</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ayaan</td>
+              <td>18</td>
+              <td>10-A</td>
+            </tr>
+            <tr>
+              <td>Sara</td>
+              <td>17</td>
+              <td>10-B</td>
+            </tr>
+            <tr>
+              <td>Hamza</td>
+              <td>18</td>
+              <td>10-B</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          Think of
+          <code> &lt;tr&gt; </code>
+          as a horizontal row and
+          <code> &lt;th&gt;/&lt;td&gt; </code>
+          as cells inside that row.
+        </p>
+      </section>
+
+      <hr />
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

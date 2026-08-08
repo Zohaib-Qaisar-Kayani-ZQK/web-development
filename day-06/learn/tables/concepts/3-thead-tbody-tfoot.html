@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thead, Tbody and Tfoot</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <ul>
+            <li>
+                <a href="../index.html">Back to Tables</a>
+            </li>
+        </ul>
+        <h1>Thead, Tbody and Tfoot</h1>
+      </header>
+
+      <!-- =====================================================
+                    Section : Thead, Tbody and Tfoot
+        ======================================================== -->
+
+      <section id="thead-tbody-tfoot-section">
+        <table border="1">
+          <caption>
+            Understanding Table Sections
+          </caption>
+          <thead>
+            <th>Section</th>
+            <th>Purpose</th>
+            <th>Example</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                <code> &lt;thead&gt; </code>
+              </th>
+              <td>Header Section</td>
+              <td>Name, Price, Quantity</td>
+            </tr>
+            <tr>
+              <th>
+                <code> &lt;tbody&gt; </code>
+              </th>
+              <td>Main records</td>
+              <td>Product 1, Product 2</td>
+            </tr>
+            <tr>
+              <th>
+                <code> &lt;tfoot&gt; </code>
+              </th>
+              <td>Summary section</td>
+              <td>Total, Average, Grand Total</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="2">Remember</th>
+              <td>Structure first, data second</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <h3>Complete Small Report</h3>
+        <table border="1">
+          <caption>
+            Small Sales Report
+          </caption>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Keyboard</td>
+              <td>4</td>
+              <td>$40</td>
+            </tr>
+            <tr>
+              <td>Mouse</td>
+              <td>6</td>
+              <td>$20</td>
+            </tr>
+            <tr>
+              <td>Monitor</td>
+              <td>2</td>
+              <td>$200</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Total</th>
+              <td>12</td>
+              <td>$260</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <hr />
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
