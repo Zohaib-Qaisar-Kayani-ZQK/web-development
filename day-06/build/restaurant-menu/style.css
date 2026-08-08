@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: 1240px;
+  place-self: center;
+  padding: 40px 20px;
+  font-size: 18px;
+}
+
+section,
+header,
+footer {
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.highlighted-text {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+img {
+  height: 450px;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 6px;
+}
