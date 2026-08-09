@@ -10,9 +10,9 @@
     <main>
       <header>
         <ul>
-            <li>
-                <a href="../index.html">Back to Tables</a>
-            </li>
+          <li>
+            <a href="../index.html">Back to Tables</a>
+          </li>
         </ul>
         <h1>Colspan</h1>
         <p>
@@ -23,6 +23,98 @@
           </span>
         </p>
       </header>
+
+      <!-- =====================================================
+                    Section : Colspan
+        ======================================================== -->
+
+      <section id="colspan-section">
+        <table border="1">
+          <caption>
+            Student Marks With Colspan
+          </caption>
+          <thead>
+            <tr>
+              <th>Student</th>
+              <th>English</th>
+              <th>Math</th>
+              <th>Physics</th>
+              <th>Chemistry</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Ayaan</th>
+              <td>88</td>
+              <td>94</td>
+              <td>91</td>
+              <td>86</td>
+            </tr>
+            <tr>
+              <th>Sara</th>
+              <td>91</td>
+              <td>89</td>
+              <td>87</td>
+              <td>93</td>
+            </tr>
+            <tr>
+              <th>Hamza</th>
+              <td>78</td>
+              <td>85</td>
+              <td>81</td>
+              <td>79</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <th colspan="4">Class Average</th>
+            <td>87.8%</td>
+          </tfoot>
+        </table>
+
+        <h2>Grouped Column Headings</h2>
+
+        <table border="1">
+          <caption>
+            Grouped Subjects
+          </caption>
+          <thead>
+            <tr>
+              <th rowspan="2">Student</th>
+              <th colspan="2">Science</th>
+              <th colspan="2">Languages</th>
+            </tr>
+            <tr>
+              <th>Physics</th>
+              <th>Chemistry</th>
+              <th>English</th>
+              <th>Urdu</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Ayaan</th>
+              <td>88</td>
+              <td>91</td>
+              <td>92</td>
+              <td>86</td>
+            </tr>
+            <tr>
+              <th>Sara</th>
+              <td>94</td>
+              <td>89</td>
+              <td>90</td>
+              <td>93</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="5">End of Report</th>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <hr />
     </main>
   </body>
 </html>
