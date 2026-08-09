@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <!-- =====================================================
+                    Project 5: Restaurant Menu
+    ========================================================== -->
+    <main>
+      <header>
+        <ul>
+          <li>
+            <a href="../projects.html">Back to Projects List</a>
+          </li>
+        </ul>
+
+        <h1>Project 5 — Restaurant Menu ⭐⭐</h1>
+
+        <p>
+          Introduce
+          <code>rowspan</code>. Group dishes under categories rather than
+          repeating the category on every row.
+        </p>
+      </header>
+      <!-- =====================================================
+                    Project 5: Restaurant Menu
+      ========================================================== -->
+      <section id="restaurant-menu-section">
+        <table border="1">
+          <caption>
+            Restaurant Menu
+          </caption>
+
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Dish</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th rowspan="3">Starters</th>
+              <td>Tomato Soup</td>
+              <td>Slow-cooked tomatoes with herbs</td>
+              <td>$6</td>
+            </tr>
+            <tr>
+              <td>Garden Salad</td>
+              <td>Fresh greens with house dressing</td>
+              <td>$7</td>
+            </tr>
+            <tr>
+              <td>Chicken Wings</td>
+              <td>Grilled wings with garlic</td>
+              <td>$9</td>
+            </tr>
+            <tr>
+              <th rowspan="3">Main Course</th>
+              <td>Grilled Steak</td>
+              <td>Beef with seasonal vegetables</td>
+              <td>$24</td>
+            </tr>
+            <tr>
+              <td>Chicken Pasta</td>
+              <td>Creamy pasta with grilled chicken</td>
+              <td>$16</td>
+            </tr>
+            <tr>
+              <td>Classic Burger</td>
+              <td>Beef burger with fries</td>
+              <td>$14</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          <strong> Challenge: </strong>
+          create four categories with different row counts and calculate rowspan
+          yourself.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
