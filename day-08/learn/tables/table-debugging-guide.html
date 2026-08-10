@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Debugging Guide</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!--======================================================================
+                        Table Debugging Guide
+    ==========================================================================    -->
+
+    <main>
+      <header>
+        <ul>
+          <li>
+            <a href="../../../day-06/learn/tables/index.html">Back to Tables</a>
+          </li>
+        </ul>
+
+        <h1>Table Debugging Guide</h1>
+      </header>
+
+      <section>
+        <table border="1">
+          <caption>
+            Common Table Mistakes
+          </caption>
+
+          <thead>
+            <tr>
+              <th>Mistake</th>
+              <th>Problem</th>
+              <th>What To Check</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>Wrong cell count</th>
+              <td>Columns stop lining up logically.</td>
+              <td>Count logical cells in each row.</td>
+            </tr>
+            <tr>
+              <th>Wrong rowspan</th>
+              <td>Following rows become shifted.</td>
+              <td>Count exactly how many rows the cell covers.</td>
+            </tr>
+            <tr>
+              <th>Wrong colspan</th>
+              <td>Headings or summaries cover the wrong area.</td>
+              <td>Count exactly how many columns the cell covers.</td>
+            </tr>
+            <tr>
+              <th>Repeated grouped category</th>
+              <td>Unnecessary repetition.</td>
+              <td>Consider rowspan.</td>
+            </tr>
+            <tr>
+              <th>Missing tfoot</th>
+              <td>Summary is mixed into the main records.</td>
+              <td>Use tfoot for the project when required.</td>
+            </tr>
+            <tr>
+              <th>Unclear headers</th>
+              <td>Readers cannot identify columns easily.</td>
+              <td>Use th for headings.</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="2">Main debugging rule</th>
+              <td>Draw the logical grid before changing the markup.</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section>
+        <h2>Cell Counting Practice</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th rowspan="2">Name</th>
+              <th colspan="2">Science</th>
+              <th colspan="2">Languages</th>
+            </tr>
+            <tr>
+              <th>Physics</th>
+              <th>Chemistry</th>
+              <th>English</th>
+              <th>Urdu</th>
+            </tr>
+            <tr>
+              <th>Ayaan</th>
+              <td>88</td>
+              <td>91</td>
+              <td>92</td>
+              <td>86</td>
+            </tr>
+          </thead>
+        </table>
+
+        <ol>
+          <li>How many logical columns exist?</li>
+          <li>How many columns does Science cover?</li>
+          <li>How many columns does Languages cover?</li>
+          <li>Why does Name use rowspan?</li>
+          <li>How many cells are in the second header row?</li>
+        </ol>
+      </section>
+    </main>
+    <script src=""></script>
+  </body>
+</html>
