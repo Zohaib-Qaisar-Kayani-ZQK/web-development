@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Master | Records and Data Management</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--=========================================================
+                Build: Table Master
+    =============================================================  -->
+
+    <main>
+      <header>
+        <h1>Table Master</h1>
+
+        <p>
+          <span class="bolded-text-600">
+            Academic, Workforce & Inventory Records Portal
+          </span>
+        </p>
+
+        <p>
+          A large HTML-only practice project for working with structured data,
+          records, summaries, grouped rows, multi-level table headings, forms,
+          navigation, and detailed reports.
+        </p>
+
+        <ul>
+          <li>
+            <a href="#">Dashboard</a>
+            <a href="#">Student Marksheet</a>
+            <a href="#">Student Directory</a>
+            <a href="#">Employee Directory</a>
+            <a href="#">Attendance</a>
+            <a href="#">Product Inventory</a>
+            <a href="#">Orders</a>
+            <a href="#">Suppliers</a>
+            <a href="#">Schedule</a>
+            <a href="#">Reports</a>
+            <a href="#">Data Entry</a>
+          </li>
+        </ul>
+      </header>
+
+      <hr />
+
+      <!--=========================================================
+                Section: Operations Dashboard
+      =============================================================  -->
+
+      <section id="operation-dashboard-section">
+        <h2>Operations Dashboard</h2>
+
+        <p>Current overview of the three primary record systems.</p>
+
+        <table border="1">
+          <caption>
+            Table Master System Overview
+          </caption>
+          <thead>
+            <tr>
+              <th>Record Area</th>
+              <th>Total Records</th>
+              <th>Active</th>
+              <th>Pending</th>
+              <th>Last Updated</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Students</th>
+              <td>128</td>
+              <td>124</td>
+              <td>4</td>
+              <td>August 8, 2026</td>
+            </tr>
+            <tr>
+              <th>Employees</th>
+              <td>42</td>
+              <td>39</td>
+              <td>3</td>
+              <td>August 8, 2026</td>
+            </tr>
+            <tr>
+              <th>Products</th>
+              <td>246</td>
+              <td>221</td>
+              <td>25</td>
+              <td>August 8, 2026</td>
+            </tr>
+            <tr>
+              <th>Orders</th>
+              <td>87</td>
+              <td>71</td>
+              <td>16</td>
+              <td>August 8, 2026</td>
+            </tr>
+            <tr>
+              <th colspan="2">Records Tracked</th>
+              <td colspan="3">503 sample academic and business records</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr />
+
+      <!--=========================================================
+                Section: Student Marksheet
+      =============================================================  -->
+
+      <section id="student-marksheet-section">
+        <h2>Student Marksheet</h2>
+        <p>Grade 10 - Section A | Final Examination 2026</p>
+        <table border="1">
+          <caption>
+            Final Examination Marksheet
+          </caption>
+          <thead>
+            <tr>
+              <th rowspan="2">Roll No.</th>
+              <th rowspan="2">Student Name</th>
+              <th colspan="5">Subject Marks</th>
+              <th rowspan="2">Total</th>
+              <th rowspan="2">Percentage</th>
+              <th rowspan="2">Grade</th>
+              <th rowspan="2">Result</th>
+            </tr>
+            <tr>
+              <th>English</th>
+              <th>Mathematics</th>
+              <th>Physics</th>
+              <th>Chemistry</th>
+              <th>Computer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1001</td>
+              <th>Ayaan Malik</th>
+              <td>88</td>
+              <td>94</td>
+              <td>91</td>
+              <td>86</td>
+              <td>96</td>
+              <td>455</td>
+              <td>91%</td>
+              <td>A+</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1002</td>
+              <th>Sara Ahmed</th>
+              <td>91</td>
+              <td>89</td>
+              <td>87</td>
+              <td>93</td>
+              <td>90</td>
+              <td>450</td>
+              <td>90%</td>
+              <td>A+</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1003</td>
+              <th>Hamza Qureshi</th>
+              <td>78</td>
+              <td>85</td>
+              <td>81</td>
+              <td>79</td>
+              <td>88</td>
+              <td>411</td>
+              <td>82.2%</td>
+              <td>A</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1004</td>
+              <th>Maya Khan</th>
+              <td>84</td>
+              <td>92</td>
+              <td>89</td>
+              <td>85</td>
+              <td>94</td>
+              <td>444</td>
+              <td>88.8%</td>
+              <td>A+</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1005</td>
+              <th>Omar Hassan</th>
+              <td>71</td>
+              <td>76</td>
+              <td>74</td>
+              <td>69</td>
+              <td>80</td>
+              <td>370</td>
+              <td>74%</td>
+              <td>B+</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1006</td>
+              <th>Noor Fatima</th>
+              <td>95</td>
+              <td>97</td>
+              <td>94</td>
+              <td>92</td>
+              <td>98</td>
+              <td>476</td>
+              <td>95.2%</td>
+              <td>A+</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1007</td>
+              <th>Bilal Raza</th>
+              <td>67</td>
+              <td>73</td>
+              <td>70</td>
+              <td>65</td>
+              <td>76</td>
+              <td>351</td>
+              <td>70.2%</td>
+              <td>B</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1008</td>
+              <th>Hiba Tariq</th>
+              <td>86</td>
+              <td>90</td>
+              <td>88</td>
+              <td>91</td>
+              <td>93</td>
+              <td>448</td>
+              <td>89.6%</td>
+              <td>A+</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1009</td>
+              <th>Rayyan Shah</th>
+              <td>59</td>
+              <td>62</td>
+              <td>66</td>
+              <td>58</td>
+              <td>71</td>
+              <td>316</td>
+              <td>63.2%</td>
+              <td>B</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <td>1010</td>
+              <th>Emaan Siddiqui</th>
+              <td>93</td>
+              <td>95</td>
+              <td>96</td>
+              <td>90</td>
+              <td>97</td>
+              <td>471</td>
+              <td>94.2%</td>
+              <td>A+</td>
+              <td>Pass</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="2">Class Average</th>
+              <td>81.2</td>
+              <td>85.3</td>
+              <td>83.6</td>
+              <td>80.8</td>
+              <td>88.3</td>
+              <td>419.2</td>
+              <td>83.84%</td>
+              <td>A</td>
+              <td>Pass</td>
+            </tr>
+            <tr>
+              <th colspan="2">Maximum Marks</th>
+              <td colspan="5">500 Marks Total</td>
+              <td>500</td>
+              <td>100%</td>
+              <td>A+</td>
+              <td>---</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <footer></footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
